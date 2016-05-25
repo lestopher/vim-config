@@ -35,13 +35,15 @@ end
 
 " set default font
 " https://github.com/Lokaltog/powerline-fonts
-set guifont=Meslo\ LG\ S\ DZ\ Regular\ for\ Powerline:h15
+" set guifont=Meslo\ LG\ S\ DZ\ Regular\ for\ Powerline:h15
+"set guifont=Source\ Code\ Pro:h16
+set guifont=Hack:h16
 
 " initial window size
 set lines=45 columns=120
 
 " pretty but not terminal-compatible color scheme
-colorscheme gruvbox
+colorscheme onedark
 set background=dark
 
 runtime! custom_config/*.gvim
